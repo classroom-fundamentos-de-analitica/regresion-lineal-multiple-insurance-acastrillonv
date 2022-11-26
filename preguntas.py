@@ -79,6 +79,7 @@ def pregunta_03():
     from sklearn.model_selection import GridSearchCV
     from sklearn.pipeline import Pipeline
     from sklearn.preprocessing import OneHotEncoder
+    import numpy as np
 
     pipeline = Pipeline(
         steps=[
